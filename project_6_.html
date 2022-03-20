@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Website</title>
+    <link rel="stylesheet" href="project_6_.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Fugaz+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cookie&family=Fugaz+One&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="gym_logo.png" alt="Image Not Loaded">
+            <div id="strong_gym">BE-STRONG GYM</div>
+        </div>
+        <!-- Middle box for Navigation Bar -->
+        <div class="middle">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Fitness Centre</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container" style="color:white">
+        <div id="line1"><h2>What are you waiting For ?</h2></div>
+        <div id="line2"><h2>Register Now! to Join BE-STRONG GYM.</h2></div>
+        <form action="noaction.php">
+            <div class="form_group">
+                <fieldset  style="border:1px solid rgb(73, 72, 72);">
+                    <legend style="text-align: center; color:rgb(170, 230, 52)"><b><u>Registration Form</u></b></legend>
+                    <input type="text" name="" placeholder="Enter Your Full Name" required><br><br>
+                    <input type="text" name="" placeholder="Enter Your Age"
+                        required><br><br>
+                    Select Your Gender: <input type="radio" name="gender">Male <input type="radio"
+                        name="gender">Female<br><br>
+                    Select Your Morning-Timings of Gym : 
+                    <select name="">
+                        <option value="1st_slot">6:00 to 7:15 AM</option>
+                        <option value="2nd_slot">7:30 to 8:45 AM</option>
+                        <option value="3rd_slot">9:00 to 10:15 AM</option>
+                    </select><br>
+                    Select Your Evening-Timings of Gym :
+                    <select name="">  
+                        <option value="4th_slot">5:30 to 6:45 PM</option>
+                        <option value="5th_slot">7:00 to 8:15 PM</option>
+                        <option value="6th_slot">8:30 to 9:45 PM</option>
+                    </select><br><br>
+                    <input type="text" name="" placeholder="Enter Your Mobile Number" required><br><br>
+                    <textarea rows="8" cols="16" placeholder="Enter Your Complete Address" required></textarea><br><br>
+                    <center><input type="submit" Value="Submit" id="submit_btn"> &nbsp;&nbsp;<input type="reset" Value="Reset" id="reset_btn"></center>
+                </fieldset>
+            </div>
+        </form>
+    </div>
+    <address id="address_bar">
+        <span id="add_1">Contact Us : Be-Strong Gym, 123-A Bajaj Plaza, Sector-23, Panipat - (132101), Haryana (India)</span><br>
+        <span id="add_2">Telephone : 01744-258965 , Fax : 123456 , Email : BeStrongGym@gmail.com </span><br>
+       <span id="add_3">Visit Us at : www.BeStrongGym.in </span>
+    </address>
+
+</body>
+
+</html>

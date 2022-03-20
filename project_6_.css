@@ -1,0 +1,215 @@
+body
+{
+    margin:0;
+    padding:0;
+    background:url('gym_image2.jpg');
+    height:100vh;
+    /* overflow:hidden; */
+}
+.left
+{
+    /* border:2px solid red; */
+    color:white;
+    display:inline-block;
+    position:absolute;
+    left:0.2vw;
+    top:1.5vh;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+.left img
+{
+    width:17vw;
+    height:19vh;
+    filter:invert(100%);
+}
+#strong_gym
+{
+    position:absolute;
+    top:14vh;
+    left:1.7vw;
+    font-family: 'Fugaz One', cursive;
+    font-size: 24px;
+}
+.middle
+{
+    border:2px solid rgb(4, 151, 4);
+    border-radius:5px;
+    color:white;
+    width:50%;
+    /* display:block; */
+    margin:auto;
+    margin-top: 1.5vh;
+    text-align: center;
+}
+.right
+{
+    /* border:2px solid red; */
+    color:white;
+    display:inline-block;
+    position:absolute;
+    right:0.2vw;
+    top:1.5vh;
+}
+.btn
+{
+    margin-left:4px;
+    margin-right:4px;
+    background:linear-gradient(rgb(146, 25, 25),rgb(45, 45, 158));
+    padding:10px;
+    border:2px solid yellow;
+    border-radius:5px;
+    font-weight: bold;
+    cursor:pointer;
+    font-family:cursive;
+    color:white;
+}
+.btn:hover
+{
+    background-color:#9dd4f7;
+    color:rgb(236, 230, 230);
+    font-size:14.5px;;
+}
+/*to make all list-items come in one line.*/
+.navbar li
+{
+    display:inline-block;
+}
+/* For text written. */
+.navbar li a
+{
+    font-size:22px;
+    color:white;
+    text-decoration: none;
+    padding:15px;
+    font-family: 'Abril Fatface', cursive;
+}
+/* Changes that should occur if links are hovered. */
+.navbar li a:hover
+{
+    color:rgb(135, 224, 253);
+    font-size:24px;;
+}
+/* changes that should occur if links are clicked/active (for that time only. */
+.navbar li a:active
+{
+    text-decoration: underline;
+    color:rgb(45, 172, 252);
+}
+.container
+{
+    border: 3px solid grey;
+    border-radius:9px;
+    margin: 135px 27.4vw;
+    padding: 35px 28px;
+    width: 35%;
+    text-align: center;
+}
+.form_group input, textarea
+{
+    text-align:center;
+    padding:3px;
+    border-radius: 4px;
+    font-family: cursive;
+}
+h2
+{
+    text-align: center;
+}
+#submit_btn
+{
+    width:6vw;
+    padding:4px;
+    background-color:rgb(190, 215, 228);
+    border:2.8px solid rgb(233, 178, 75);
+    border-radius: 14px;
+}
+#reset_btn
+{
+    width:6vw;
+    padding:4px;
+    background-color:rgb(190, 215, 228);
+    border:2.8px solid rgb(233, 178, 75);
+    border-radius: 14px;
+}
+#submit_btn:hover
+{
+    background-color:rgb(141, 195, 224);
+    font-size:15px;
+}
+#reset_btn:hover
+{
+    background-color:rgb(141, 195, 224);
+    font-size:15px;
+}
+#line1
+{
+    animation-name:anime1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes anime1
+{
+    from
+    {
+        font-size: 10px;
+        color:rgb(212, 158, 57);
+
+    }
+    50%
+    {
+        color:rgb(117, 191, 221);
+    }
+    to
+    {
+        font-size: 15px;
+        color:rgb(224, 106, 126);
+    }
+}
+#line2
+{
+    animation-name:anime2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes anime2
+{
+    from
+    {
+        font-size: 12px;
+        color:rgb(212, 158, 57);
+    }
+    50%
+    {
+        color:rgb(117, 191, 221);
+    }
+    to
+    {
+        font-size: 17px;
+        color:rgb(17, 207, 17);
+    }
+}
+#address_bar
+{
+    color:white;
+    border:3px solid rgb(147, 193, 211);
+    text-align: center;
+    border-radius:4px;
+    font-weight: bold;
+    padding:3px;
+}
+#add_1
+{
+    color:tomato;
+}
+#add_2
+{
+    color:white;
+}
+#add_3
+{
+    color:greenyellow;
+}
